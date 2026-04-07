@@ -12,4 +12,5 @@ statsmodels>=0.14.0
 tensorflow>=2.13.0
 
 # Optional but recommended for performance
-scipy>=1.10.0
+scipy>=1.10.
+jinja2>=3.1.0
