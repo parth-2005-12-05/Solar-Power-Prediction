@@ -1,16 +1,19 @@
-numpy>=1.23.0
-pandas>=1.5.0
-matplotlib>=3.7.0
-seaborn>=0.12.0
+# ── Web App ────────────────────────────────────────────────────────────────
+flask>=2.3.0
 
+# ── Data & ML ──────────────────────────────────────────────────────────────
+numpy>=1.24.0
+pandas>=2.0.0
 scikit-learn>=1.3.0
+xgboost>=2.0.0
+joblib>=1.3.0
 
-xgboost>=1.7.6
+# ── Deep Learning ──────────────────────────────────────────────────────────
+tensorflow>=2.13.0          # includes Keras; use tensorflow-cpu if no GPU
 
+# ── Time-Series Models ─────────────────────────────────────────────────────
 statsmodels>=0.14.0
 
-tensorflow>=2.13.0
-
-# Optional but recommended for performance
-scipy>=1.10.
-jinja2>=3.1.0
+# ── Visualisation ──────────────────────────────────────────────────────────
+matplotlib>=3.7.0
+seaborn>=0.12.0
